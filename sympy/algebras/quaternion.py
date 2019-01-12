@@ -342,6 +342,9 @@ class Quaternion(Expr):
 
         return res
 
+    def arm(self):
+        print("Hello")
+        
     def exp(self):
         """Returns the exponential of q (e^q).
 
